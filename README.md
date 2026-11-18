@@ -9,10 +9,10 @@ Cada alumno desarrollará un módulo cotizador independiente y lo integrará al 
 
 1. **Prohibido hacer `push` directo a `main`.** Todo cambio entra mediante *Pull Request*.
 2. **No borres ni edites los archivos de tus compañeros** ni los archivos `plantilla.*`.
-3. **Nombra tus archivos contu nombre:**
-   * `equipoX-tema.html`
-   * `equipoX-tema.css`
-   * `equipoX-tema.js`
+3. **Nombra tus archivos con tu nombre:**
+   * `nombrealumno1-tema.html`
+   * `nombrealumno1-tema.css`
+   * `nombrealumno1-tema.js`
 4. **Antes de iniciar cada nuevo Sprint**, actualiza tu copia local desde `main`:
    ```bash
    git checkout main
@@ -21,27 +21,27 @@ Cada alumno desarrollará un módulo cotizador independiente y lo integrará al 
 ## 📅 Cronograma de Entregas (6 Sesiones de 45 min)
 
 ### 🔹 Sprint 1: Estructura y Formularios HTML5 (Jueves 1 y Viernes 1)
-* **Rama:** `html/equipoX` (ej. `html/equipo1`)
+* **Rama:** `html/nombrealumno1` (ej. `html/fernando`)
 * **Tarea:**
-  1. Copia `plantilla.html` y renómbralo según tu tema (ej. `equipo1-cine.html`).
+  1. Copia `plantilla.html` y renómbralo según tu tema (ej. `fernando-cine.html`).
   2. Adapta el formulario con `<fieldset>`, `<legend>`, `<label>` vinculado (`for`/`id`), `input` (`text`, `number`, `radio`, `checkbox`) y `<select>`.
   3. Agrega el enlace a tu página dentro de la lista `<ul>` en `index.html`.
   4. Sube tu rama y abre un **Pull Request** hacia `main` al finalizar el Viernes.
 
 ### 🔹 Sprint 2: Diseño Responsive con Flexbox y Color (Lunes y Miércoles)
 * *(Nota: El martes no hay actividad de repaso por exposiciones).*
-* **Rama:** `css/equipoX` (ej. `css/equipo1`)
+* **Rama:** `css/nombrealumno1` (ej. `css/fernando`)
 * **Tarea:**
-  1. Copia `plantilla.css`, renómbralo (ej. `equipo1-cine.css`) y enlázalo en tu HTML.
+  1. Copia `plantilla.css`, renómbralo (ej. `fernando-cine.css`) y enlázalo en tu HTML.
   2. Cambia la paleta de colores en `:root` acorde a la identidad visual de tu tema.
   3. Usa **Flexbox** (`display: flex`, `justify-content`, `align-items`, `gap`) para organizar los campos y opciones.
   4. Asegura que el diseño sea **100% responsive** en pantallas menores a `600px` usando `@media`.
   5. Abre tu **Pull Request** al finalizar el Miércoles.
 
 ### 🔹 Sprint 3: Lógica de Precios con JavaScript (Jueves 2 y Viernes 2)
-* **Rama:** `js/equipoX` (ej. `js/equipo1`)
+* **Rama:** `js/nombrealumno1` (ej. `js/fernando`)
 * **Tarea:**
-  1. Copia `plantilla.js`, renómbralo (ej. `equipo1-cine.js`) y enlázalo en tu HTML.
+  1. Copia `plantilla.js`, renómbralo (ej. `fernando-cine.js`) y enlázalo en tu HTML.
   2. Usa **exclusivamente** eventos `click`, variables, operadores aritméticos y condicionales `if / else if / else`.
   3. Programa el cálculo: `(Precio Base + Extras) * Cantidad`.
   4. Implementa **mínimo 2 reglas con `if / else`**:
