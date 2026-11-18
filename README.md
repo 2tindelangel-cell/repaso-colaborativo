@@ -20,7 +20,7 @@ Cada alumno desarrollará un módulo cotizador independiente y lo integrará al 
 
 ## 📅 Cronograma de Entregas (6 Sesiones de 45 min)
 
-### 🔹 Sprint 1: Estructura y Formularios HTML5 (Jueves 1 y Viernes 1)
+### 🔹 Sprint 1: Estructura y Formularios HTML5 (Jueves y Viernes)
 * **Rama:** `html/nombrealumno1` (ej. `html/fernando`)
 * **Tarea:**
   1. Copia `plantilla.html` y renómbralo según tu tema (ej. `fernando-cine.html`).
@@ -28,7 +28,7 @@ Cada alumno desarrollará un módulo cotizador independiente y lo integrará al 
   3. Agrega el enlace a tu página dentro de la lista `<ul>` en `index.html`.
   4. Sube tu rama y abre un **Pull Request** hacia `main` al finalizar el Viernes.
 
-### 🔹 Sprint 2: Diseño Responsive con Flexbox y Color (Lunes y Miércoles)
+### 🔹 Sprint 2: Diseño Responsive con Flexbox y Color (Lunes y Mártes)
 * *(Nota: El martes no hay actividad de repaso por exposiciones).*
 * **Rama:** `css/nombrealumno1` (ej. `css/fernando`)
 * **Tarea:**
@@ -38,7 +38,7 @@ Cada alumno desarrollará un módulo cotizador independiente y lo integrará al 
   4. Asegura que el diseño sea **100% responsive** en pantallas menores a `600px` usando `@media`.
   5. Abre tu **Pull Request** al finalizar el Miércoles.
 
-### 🔹 Sprint 3: Lógica de Precios con JavaScript (Jueves 2 y Viernes 2)
+### 🔹 Sprint 3: Lógica de Precios con JavaScript (Jueves y Viernes)
 * **Rama:** `js/nombrealumno1` (ej. `js/fernando`)
 * **Tarea:**
   1. Copia `plantilla.js`, renómbralo (ej. `fernando-cine.js`) y enlázalo en tu HTML.
