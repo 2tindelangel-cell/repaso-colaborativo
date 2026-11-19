@@ -29,11 +29,11 @@
 
       <!-- SECCIÓN 1: Datos básicos y cantidad -->
       <fieldset class="grupo-campos">
-        <legend>1. Información del Pedido</legend>
+        <legend>1. Información de tu PC</legend>
 
         <div class="campo">
           <label for="nombreCliente">Nombre del cliente:</label>
-          <input type="text" id="nombreCliente" placeholder="Ej. Ana López" required>
+          <input type="text" id="nombreCliente" placeholder="Ej. Luis Hernandez" required>
         </div>
 
         <div class="campo">
@@ -44,43 +44,81 @@
 
       <!-- SECCIÓN 2: Opciones excluyentes (Radio) -->
       <fieldset class="grupo-campos">
-        <legend>2. Elige una opción base</legend>
+        <legend>2. Elige una gama para tu PC</legend>
         
         <label class="opcion-linea">
-          <input type="radio" name="planBase" id="planBasico" value="100" checked>
-          Opción Básica ($100)
+          <input type="radio" name="planBase" id="planBasico" value="12,000" checked>
+          Gama baja ($12,000)
         </label>
 
         <label class="opcion-linea">
-          <input type="radio" name="planBase" id="planPremium" value="200">
-          Opción Premium ($200)
+          <input type="radio" name="planBase" id="planPremium" value="20,000">
+          Gama media ($20,000)
         </label>
+
+        <label class="opcion-linea">
+          <input type="radio" name="planBase" id="planPro" value="35,000">
+          Gama alta ($35,000)
+        </label>
+        
+        <label class="opcion-linea">
+          <input type="radio" name="planBase" id="planUltra" value="65,000">
+          Gama ultra ($65,000)
+        </label>
+
       </fieldset>
 
       <!-- SECCIÓN 3: Extras opcionales (Checkbox) -->
       <fieldset class="grupo-campos">
-        <legend>3. Agrega extras</legend>
+        <legend>3. Agrega periféricos</legend>
 
         <label class="opcion-linea">
-          <input type="checkbox" id="extra1" value="30">
-          Extra 1 (+$30)
+          <input type="checkbox" id="monitor144" value="7700">
+          Monitor 144hz 1440p (+$7,700)
         </label>
 
         <label class="opcion-linea">
-          <input type="checkbox" id="extra2" value="50">
-          Extra 2 (+$50)
+          <input type="checkbox" id="tecladomec" value="2500">
+          Teclado mecánico (+$2500)
         </label>
       </fieldset>
 
+      <fieldset class="grupo-campos">
+        <legend>4. Agrega software</legend>
+
+        <label class="opcion-linea">
+          <input type="checkbox" id="win11" value="5000">
+          Licencia de Windows 11 (+$5,000)
+        </label>
+
+        <label class="opcion-linea">
+          <input type="checkbox" id="office" value="3000">
+          Licencia de Office (+$3,000)
+        </label>
+      </fieldset>
+
+      <fieldset class="grupo-campos">
+        <legend>5. Agregar componentes</legend>
+
+        <label class="opcion-linea">
+          <input type="checkbox" id="+RAM" value="1900">
+          + 8GB RAM (+$1,900)
+        </label>
+
+        <label class="opcion-linea">
+          <input type="checkbox" id="refliquida" value="5900">
+          Refrigeración liquida (+$5,900)
+        </label>
+      </fieldset>
       <!-- SECCIÓN 4: Lista desplegable (Select) -->
       <fieldset class="grupo-campos">
-        <legend>4. Método de entrega</legend>
+        <legend>6. Método de entrega</legend>
         
         <div class="campo">
           <label for="tipoEntrega">Selecciona entrega:</label>
           <select id="tipoEntrega">
             <option value="tienda">Recoger en tienda (Gratis)</option>
-            <option value="domicilio">Envío a domicilio (+$40)</option>
+            <option value="domicilio">Envío a domicilio (+$250)</option>
           </select>
         </div>
       </fieldset>
