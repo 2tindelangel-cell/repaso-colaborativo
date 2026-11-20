@@ -29,7 +29,7 @@ Cada alumno desarrollará un módulo cotizador independiente y lo integrará al 
   4. Sube tu rama y abre un **Pull Request** hacia `main` al finalizar el Viernes.
 
 ### 🔹 Sprint 2: Diseño Responsive con Flexbox y Color (Lunes y Mártes)
-* *(Nota: El martes no hay actividad de repaso por exposiciones).*
+* *(Nota: El miércoles no hay actividad de repaso por exposiciones).*
 * **Rama:** `css/nombrealumno1` (ej. `css/fernando`)
 * **Tarea:**
   1. Copia `plantilla.css`, renómbralo (ej. `fernando-cine.css`) y enlázalo en tu HTML.
