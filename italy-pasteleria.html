@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotizador - Pasteleria dulce capricho</title>
+  
+  <!-- SPRINT 2 (Lunes): Cambia "plantilla.css" por el nombre de tu archivo CSS (ej. equipo1.css) -->
+  <link rel="stylesheet" href="plantilla.css">
+</head>
+<body>
+
+  <nav class="barra-volver">
+    <a href="index.html">← Volver al menú principal</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>Pasteleria Dulce Capricho</h1>
+    <p>Completa los datos para calcular el precio total.</p>
+
+    <!-- =================================================================
+         SPRINT 1 (Jueves y Viernes): FORMULARIO HTML5
+         Requisitos:
+         1. Usar <fieldset> y <legend> para agrupar secciones.
+         2. Vincular cada <label for="id"> con su <input id="id">.
+         3. Incluir: number, radio, checkbox y select.
+    ================================================================== -->
+    <form id="formularioCotizador">
+
+      <!-- SECCIÓN 1: Datos básicos y cantidad -->
+      <fieldset class="grupo-campos">
+        <legend>1. Información del Pedido</legend>
+
+        <div class="campo">
+          <label for="nombreCliente">Nombre del cliente:</label>
+          <input type="text" id="nombreCliente" placeholder="Ej. Dayana Gonzalez" required>
+        </div>
+
+        <div class="campo">
+          <label for="cantidad">Cantidad:</label>
+          <input type="number" id="cantidad" value="1" min="1" max="50" required>
+        </div>
+      </fieldset>
+
+      <!-- SECCIÓN 2: Opciones excluyentes (Radio) -->
+      <fieldset class="grupo-campos">
+        <legend>2. Elige una opción base</legend>
+
+        <label class="opcion-linea">
+          <input type="radio" name="planBase" id="planBasico" value="100" checked>
+          Porcion pequeña - 3 personas ($100 MXN)
+        </label>
+
+        <label class="opcion-linea">
+          <input type="radio" name="planBase" id="planBasico" value="380" checked>
+          Porcion Mediana - 10 personas ($380MXN)
+        </label>
+
+        <label class="opcion-linea">
+          <input type="radio" name="planBase" id="planPremium" value="650">
+          Porcion Grande - 30 personas ($650MXN)
+        </label>
+      </fieldset>
+
+      <!-- SECCIÓN 3: Extras opcionales (Checkbox) -->
+      <fieldset class="grupo-campos">
+        <legend>3. Agrega extras</legend>
+
+        <label class="opcion-linea">
+          <input type="checkbox" id="extra1" value="50">
+           Relleno de Mango (+$50) 
+        </label>
+
+        <label class="opcion-linea">
+          <input type="checkbox" id="extra2" value="50">
+          Relleno de Cookies and cream (+$50)
+        </label>
+        
+         <label class="opcion-linea">
+          <input type="checkbox" id="extra2" value="90">
+          Relleno de Nieve (+$90)
+        </label>
+
+         <label class="opcion-linea">
+          <input type="checkbox" id="extra2" value="90">
+         Relleno de Nutella y Fresas (+$90)
+        </label>
+
+      </fieldset>
+
+      <!-- SECCIÓN 4: Lista desplegable (Select) -->
+      <fieldset class="grupo-campos">
+        <legend>4. Método de entrega</legend>
+        
+        <div class="campo">
+          <label for="tipoEntrega">Selecciona entrega:</label>
+          <select id="tipoEntrega">
+            <option value="tienda">Recoger en tienda (Gratis)</option>
+            <option value="domicilio">Envío a domicilio  (+$100)</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <!-- Botón type="button" para que JS lo controle sin recargar la página -->
+      <button type="button" id="btnCalcular" class="btn-principal">Calcular Total</button>
+
+    </form>
+
+    <!-- Caja donde JavaScript mostrará el resultado en el Sprint 3 -->
+    <div id="cajaResultado" class="resultado">
+      Aquí aparecerá el resumen de tu cotización.
+    </div>
+  </main>
+
+  <!-- SPRINT 3 (Jueves 2): Cambia "plantilla.js" por el nombre de tu archivo JS (ej. equipo1.js) -->
+  <script src="plantilla.js"></script>
+</body>
+</html>
