@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotizador de Autolavado Detailing</title>
+</head>
+<body>
+  <nav class="barra-volver">
+    <a href="index.html">&larr; Volver al menú principal</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>Cotizador de Autolavado Detailing</h1>
+    <p>Completa los datos para cotizar los servicios para tu vehículo.</p>
+
+    <form id="formularioCotizador">
+      <fieldset class="grupo-campos">
+        <legend>1. Información del pedido</legend>
+
+        <div class="campo">
+          <label for="nombreCliente">Nombre del cliente:</label>
+          <input type="text" id="nombreCliente" name="nombreCliente" placeholder="Ej. Ana López" required>
+        </div>
+
+        <div class="campo">
+          <label for="cantidad">Cantidad de vehículos:</label>
+          <input type="number" id="cantidad" name="cantidad" value="1" min="1" max="50" required>
+        </div>
+      </fieldset>
+
+      <fieldset class="grupo-campos">
+        <legend>2. Elige el servicio principal</legend>
+
+        <label class="opcion-linea" for="lavadoExpress">
+          <input type="radio" name="servicioBase" id="lavadoExpress" value="140" checked>
+          Lavado Express ($140)
+        </label>
+
+        <label class="opcion-linea" for="enceradoCompleto">
+          <input type="radio" name="servicioBase" id="enceradoCompleto" value="320">
+          Encerado Completo ($320)
+        </label>
+      </fieldset>
+
+      <fieldset class="grupo-campos">
+        <legend>3. Agrega servicios opcionales</legend>
+
+        <label class="opcion-linea" for="aspiradoProfundo">
+          <input type="checkbox" id="aspiradoProfundo" name="extras" value="60">
+          Aspirado profundo (+$60)
+        </label>
+
+        <label class="opcion-linea" for="lavadoMotor">
+          <input type="checkbox" id="lavadoMotor" name="extras" value="150">
+          Lavado de motor (+$150)
+        </label>
+      </fieldset>
+
+      <fieldset class="grupo-campos">
+        <legend>4. Elige el turno</legend>
+
+        <div class="campo">
+          <label for="tipoTurno">Tipo de turno:</label>
+          <select id="tipoTurno" name="tipoTurno">
+            <option value="0">Turno normal (Gratis)</option>
+            <option value="50">Servicio Express sin fila (+$50)</option>
+          </select>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+</body>
+</html>

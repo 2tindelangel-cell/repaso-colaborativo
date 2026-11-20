@@ -55,15 +55,15 @@ Cada alumno desarrollará un módulo cotizador independiente y lo integrará al 
 
 *Cada equipo debe elegir un tema distinto y registrarlo en clase para no repetir.*
 
-| # | Tema del Cotizador | Opciones Base (`radio`) | Extras (`checkbox`) | Entrega / Modalidad (`select`) |
-| :--- | :--- | :--- | :--- | :--- |
-| **1** | 🍕 **Pizzería Artesanal** | Tamaño: Mediana ($150) / Familiar ($220) | Orilla de queso (+$35), Pepperoni extra (+$25) | Comer aquí (Gratis) / A domicilio (+$40) |
-| **2** | 🎬 **Boletos de Cine** | Sala: Tradicional ($85) / VIP ($160) | Combo Palomitas (+$90), Lentes 3D (+$25) | Función Matiné (Gratis) / Estreno Nocturno (+$20) |
-| **3** | 💻 **Armado de PC Gamer** | Gama: Entrada ($12,000) / Ultra ($25,000) | Monitor 144Hz (+$3,500), Teclado Mecánico (+$1,200) | Recoger en sucursal (Gratis) / Envío asegurado (+$350) |
-| **4** | ✈️ **Agencia de Viajes** | Paquete: Mochilero ($3,500) / Todo Incluido ($7,800) | Seguro de viajero (+$450), Tour guiado (+$800) | Temporada Baja (Gratis) / Temporada Alta (+$1,200) |
-| **5** | ☕ **Cafetería de Especialidad** | Tamaño: Mediano ($55) / Grande ($70) | Leche de almendra (+$15), Shot extra de café (+$12) | Para llevar (Gratis) / Servicio a oficina (+$25) |
-| **6** | 🏋️ **Membresía de Gimnasio** | Plan: Básico ($450) / Black Total ($750) | Acceso a alberca (+$150), Entrenador personal (+$300) | Pago mensual (Gratis) / Inscripción inmediata (+$200) |
-| **7** | 🐶 **Estética y Spa Canino** | Mascota: Razas chicas ($250) / Razas grandes ($400) | Corte de uñas (+$60), Baño antipulgas (+$110) | Llevar a clínica (Gratis) / Transporte mascota (+$80) |
-| **8** | 🎮 **Renta de Consolas / Torneo** | Equipo: Consola estándar ($120/hr) / Simulador VR ($220/hr) | Control extra (+$40), Bebidas y snacks (+$75) | Reserva entre semana (Gratis) / Fin de semana (+$50) |
-| **9** | 🎂 **Pastelería Personalizada** | Porciones: 10 personas ($380) / 25 personas ($650) | Relleno de Nutella (+$90), Letrero fondant (+$70) | Recoger en taller (Gratis) / Entrega refrigerada (+$100) |
-| **10** | 🚗 **Autolavado Detailing** | Servicio: Lavado Express ($140) / Encerado Completo ($320) | Aspirado profundo (+$60), Lavado de motor (+$150) | Turno normal (Gratis) / Servicio Express sin fila (+$50) |
+|Asignado| # | Tema del Cotizador | Opciones Base (`radio`) | Extras (`checkbox`) | Entrega / Modalidad (`select`) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Jesed** | **1** | 🍕 **Pizzería Artesanal** | Tamaño: Mediana ($150) / Familiar ($220) | Orilla de queso (+$35), Pepperoni extra (+$25) | Comer aquí (Gratis) / A domicilio (+$40) |
+| None | **2** | 🎬 **Boletos de Cine** | Sala: Tradicional ($85) / VIP ($160) | Combo Palomitas (+$90), Lentes 3D (+$25) | Función Matiné (Gratis) / Estreno Nocturno (+$20) |
+| **Fernando** | **3** | 💻 **Armado de PC Gamer** | Gama: Entrada ($12,000) / Ultra ($25,000) | Monitor 144Hz (+$3,500), Teclado Mecánico (+$1,200) | Recoger en sucursal (Gratis) / Envío asegurado (+$350) |
+| **Gilberto** | **4** | ✈️ **Agencia de Viajes** | Paquete: Mochilero ($3,500) / Todo Incluido ($7,800) | Seguro de viajero (+$450), Tour guiado (+$800) | Temporada Baja (Gratis) / Temporada Alta (+$1,200) |
+| **Dusting** | **5** | ☕ **Cafetería de Especialidad** | Tamaño: Mediano ($55) / Grande ($70) | Leche de almendra (+$15), Shot extra de café (+$12) | Para llevar (Gratis) / Servicio a oficina (+$25) |
+| None | **6** | 🏋️ **Membresía de Gimnasio** | Plan: Básico ($450) / Black Total ($750) | Acceso a alberca (+$150), Entrenador personal (+$300) | Pago mensual (Gratis) / Inscripción inmediata (+$200) |
+| None | **7** | 🐶 **Estética y Spa Canino** | Mascota: Razas chicas ($250) / Razas grandes ($400) | Corte de uñas (+$60), Baño antipulgas (+$110) | Llevar a clínica (Gratis) / Transporte mascota (+$80) |
+| None | **8** | 🎮 **Renta de Consolas / Torneo** | Equipo: Consola estándar ($120/hr) / Simulador VR ($220/hr) | Control extra (+$40), Bebidas y snacks (+$75) | Reserva entre semana (Gratis) / Fin de semana (+$50) |
+| **Britany** | **9** | 🎂 **Pastelería Personalizada** | Porciones: 10 personas ($380) / 25 personas ($650) | Relleno de Nutella (+$90), Letrero fondant (+$70) | Recoger en taller (Gratis) / Entrega refrigerada (+$100) |
+| **Arnold** | **10** | 🚗 **Autolavado Detailing** | Servicio: Lavado Express ($140) / Encerado Completo ($320) | Aspirado profundo (+$60), Lavado de motor (+$150) | Turno normal (Gratis) / Servicio Express sin fila (+$50) |
