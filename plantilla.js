@@ -25,23 +25,47 @@ btnCalcular.addEventListener('click', function () {
   let precioBase = 0;
   const planBasico = document.getElementById('planBasico');
   const planPremium = document.getElementById('planPremium');
+  const planPro = document.getElementById('planPro');
+  const planUltra = document.getElementById('planUltra');
 
   if (planBasico.checked) {
-    precioBase = 100;
+    precioBase = 12000;
   } else if (planPremium.checked) {
-    precioBase = 200;
+    precioBase = 20000;
+  }
+  else if (planPro.checked) {
+    precioBase = 35000;
+  }
+  else if (planUltra.checked) {
+    precioBase = 65000;
   }
 
   // Sumar extras si los checkbox están marcados
   let costoExtras = 0;
-  const extra1 = document.getElementById('extra1');
-  const extra2 = document.getElementById('extra2');
+  const monitor144 = document.getElementById('monitor144');
+  const tecladomec = document.getElementById('tecladomec');
+  const win11 = document.getElementById('win11');
+  const office = document.getElementById('office');
+  const ram = document.getElementById('+RAM');
+  const refliquida = document.getElementById('refliquida');
 
-  if (extra1.checked) {
-    costoExtras = costoExtras + 30;
+  if (monitor144.checked) {
+    costoExtras = costoExtras + 7700;
   }
-  if (extra2.checked) {
-    costoExtras = costoExtras + 50;
+  if (tecladomec.checked) {
+    costoExtras = costoExtras + 2500;
+  }
+  if (win11.checked) {
+    costoExtras = costoExtras + 5000;
+  }
+  if (office.checked) {
+    costoExtras = costoExtras + 3000;
+  }
+  if (ram.checked) {
+    costoExtras = costoExtras + 1900;
+  }
+  if (refliquida.checked) {
+    costoExtras = costoExtras + 5900;
   }
 
   // Cálculo del subtotal
@@ -58,7 +82,7 @@ btnCalcular.addEventListener('click', function () {
   // CONDICIONAL 3: Cargo extra por método de entrega
   const tipoEntrega = document.getElementById('tipoEntrega').value;
   if (tipoEntrega === 'domicilio') {
-    total = total + 40;
+    total = total + 250;
   }
 
   // Mostrar resultado final en pantalla
